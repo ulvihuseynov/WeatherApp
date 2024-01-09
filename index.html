@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+ <div class="header">
+    <div class="container">
+        <div class="boxcon">
+        <div class="title">
+            <div class="imgBox">
+<img src="assets/img/sun.svg" alt="">
+            </div>
+            <div class="nameBox">
+                <h2 id="name">Baku</h2>
+                <p>Monday 01/09/2024</p>
+            </div>
+        </div>
+        <div class="degre">
+            <div class="number">
+                <h1 style="margin-right: 20px;" id="degree">15</h1><span> °C</span>
+                <p id="forecast"></p>
+            </div>
+        </div>
+        </div>
+
+        <div class="footer">
+            <div class="visibl">
+                <div class="box1">
+                  <div>  <img src="assets/img/eye.svg" alt=""></div>
+                    <p >Visibility </p>
+                    <span id="visiblity"></span>
+                </div>
+                <div class="line">
+                    <img src="assets/img/line.svg" alt="">
+                </div>
+                <div class="box2">
+                    <img src="assets/img/temp.svg" alt="">
+                    <p >Feels like </p>
+                   <span id="feels"></span>
+                 
+                </div>
+            </div>
+                <div class="humid">
+                    <div class="box1">
+                      <div> <img src="assets/img/water.svg" alt=""></div> 
+                        <p>Humidity </p>
+                        <span id="humidity"> </span>
+                    </div>
+                    <div class="line">
+                     <div>  <img src="assets/img/line.svg" alt=""></div> 
+                    </div>
+                    <div class="box2">
+                     <div>  <img src="assets/img/wind.svg" alt=""></div> 
+                        <p>Wind </p>
+                        <span id="wind"></span>
+                    </div>
+                </div>
+            
+        </div>
+
+
+       
+    </div>
+    <div class="location">
+        <div class="info">
+            <input type="text" id="searchBox" autocomplete="off" autofocus>
+            <button id="searchBtn" autofocus>Axtar</button>
+        </div>
+    </div>
+</div>
+<div class="error">
+    <p>Seher adini daxil edin</p>
+</div>
+    <script src="assets/weather.js"></script> 
+</body>
+</html>
